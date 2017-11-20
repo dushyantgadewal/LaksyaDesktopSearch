@@ -1,0 +1,48 @@
+<launch4jConfig>
+ <dontWrapJar>true</dontWrapJar>
+ <headerType>gui</headerType>
+ <jar>.\dist\lib\JBox.jar</jar>
+ <outfile>.\dist\JBox.exe</outfile>
+ <errTitle></errTitle>
+ <cmdLine></cmdLine>
+ <chdir>.</chdir>
+ <priority>normal</priority>
+ <downloadUrl>http://java.com/download</downloadUrl>
+ <supportUrl></supportUrl>
+ <customProcName>false</customProcName>
+ <stayAlive>false</stayAlive>
+ <icon>C:\projects\JBox\deploy\icons\music.ico</icon>
+ <classPath>
+  <mainClass>com.javasrc.jbox.JBox</mainClass>
+  <cp>.\lib\JBox.jar</cp>
+  <cp>.\lib\gentlyWEB-utils-1.1.jar</cp>
+  <cp>.\lib\javasrcutil.jar</cp>
+  <cp>.\lib\jd3lib.jar</cp>
+  <cp>.\lib\jdom.jar</cp>
+  <cp>.\lib\jl1.0.jar</cp>
+  <cp>.\lib\jlfgr-1_0.jar</cp>
+  <cp>.\lib\JoSQL-1.0.jar</cp>
+  <cp>.\lib\xerces.jar</cp>
+ </classPath>
+ <jre>
+  <path>..\..\java\jre</path>
+  <minVersion>1.5.0</minVersion>
+  <maxVersion></maxVersion>
+  <dontUsePrivateJres>false</dontUsePrivateJres>
+  <initialHeapSize>16</initialHeapSize>
+  <maxHeapSize>256</maxHeapSize>
+  <opt>-Dswing.defaultlaf=com.sun.java.swing.plaf.windows.WindowsLookAndFeel</opt>
+ </jre>
+ <versionInfo>
+  <fileVersion>1.0.0.0</fileVersion>
+  <txtFileVersion>1.0</txtFileVersion>
+  <fileDescription>JBox Music Player Portable</fileDescription>
+  <copyright>(c)2007 JavaSRC. All Rights Reserved.</copyright>
+  <productVersion>1.0.0.0</productVersion>
+  <txtProductVersion>1.0</txtProductVersion>
+  <productName>JBox Music Player Portable</productName>
+  <companyName>JavaSRC</companyName>
+  <internalName>JBox</internalName>
+  <originalFilename>JBox.exe</originalFilename>
+ </versionInfo>
+</launch4jConfig>

@@ -1,0 +1,39 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>0</headerType>
+  <jar>M:\LaksyaDesktopSearch\dist\LaksyaDesktopSearch.jar</jar>
+  <outfile>M:\LaksyaDesktopSearch\dist\LaksyaDesktopSearch.exe</outfile>
+  <errTitle>Error Lakshya Desktop Search</errTitle>
+  <jarArgs></jarArgs>
+  <chdir></chdir>
+  <customProcName>false</customProcName>
+  <stayAlive>false</stayAlive>
+  <icon></icon>
+  <jre>
+    <path>/</path>
+    <minVersion>1.4.0</minVersion>
+    <maxVersion>1.6.0</maxVersion>
+    <initialHeapSize>2</initialHeapSize>
+    <maxHeapSize>8</maxHeapSize>
+    <args>LakshyaDeskTopSearchEngine.SystemTray.LakshyaSystemTray
+</args>
+  </jre>
+  <splash>
+    <file>M:\LaksyaDesktopSearch\src\LakshyaDeskTopSearchEngine\html\world_splash.bmp</file>
+    <waitForWindow>true</waitForWindow>
+    <timeout>60</timeout>
+    <timeoutErr>true</timeoutErr>
+  </splash>
+  <versionInfo>
+    <fileVersion>1.30.10.2007</fileVersion>
+    <txtFileVersion>0.30.10.2007</txtFileVersion>
+    <fileDescription>Lakshya Desktop Search Engine</fileDescription>
+    <copyright>dushyant_fst@rediffmail.com</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0.0</txtProductVersion>
+    <productName>Lakshya</productName>
+    <companyName>da company &apos;D&apos; Lakshya</companyName>
+    <internalName>LakshyaSystemTray</internalName>
+    <originalFilename>LakshyaSystemTray.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>

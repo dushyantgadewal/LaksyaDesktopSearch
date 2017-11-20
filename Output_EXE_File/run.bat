@@ -1,0 +1,1 @@
+java -classpath classes;.;M:\LaksyaDesktopSearch\dist\lib\jdic.jar;M:\LaksyaDesktopSearch\dist\lib\jdic_stub.jar;M:\LaksyaDesktopSearch\dist\lib\lucene-core-2.2.0.jar;M:\LaksyaDesktopSearch\dist\lib\lucene-demos-2.2.0.jar;M:\LaksyaDesktopSearch\dist\lib\packager.jar; -jar "M:\LaksyaDesktopSearch\dist\LaksyaDesktopSearch.jar"

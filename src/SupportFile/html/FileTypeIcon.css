@@ -1,0 +1,31 @@
+/* 
+    Document   : FileTypeIcon
+    Created on : October 29, 2007, 2:50 AM
+    Author     : Dushyant
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+a[href $='.pdf'] { 
+   padding-left: 18px;
+   background: transparent url(pdf.gif) no-repeat center left;
+}
+
+a[href $='.doc'] { 
+   padding-left: 18px;
+   background: transparent url(doc.gif) no-repeat center left;
+}
+
+a[href $='.xls'] { 
+   padding-left: 18px;
+   background: transparent url(xls.gif) no-repeat center left;
+}

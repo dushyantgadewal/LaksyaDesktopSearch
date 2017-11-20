@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Created-By: Dushyant Gadewal
+Main-Class: LakshyaDeskTopSearchEngine.SystemTray.LakshyaSystemTray
+X-COMMENT: Main-Class will be added automatically by build
+
